@@ -5,6 +5,9 @@ defaultContentLanguage = "zh-cn"
 
 # googleAnalytics = 'G-NYE962575Q'
 
+#relativeURLs = true
+#uglyURLs = true
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true

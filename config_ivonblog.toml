@@ -5,6 +5,9 @@ defaultContentLanguage = "zh-tw"
 
 googleAnalytics = 'G-NYE962575Q'
 
+#relativeURLs = true
+#uglyURLs = true
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
@@ -56,6 +59,11 @@ enableGitInfo = true
   name = "【意見回饋】Send feedbacks"
   url = "https://github.com/ivon852/stable-diffusion-webui-manuals"
   weight = 20
+
+[[menu.before]]
+  name = "【關於作者】About authors"
+  url = "https://github.com/ivon852/stable-diffusion-webui-manuals"
+  weight = 30
 
 
 [params]

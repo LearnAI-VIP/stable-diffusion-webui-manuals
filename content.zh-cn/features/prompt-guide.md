@@ -24,7 +24,7 @@ weight: 1
 譬如，用写实风格的`Stable Diffusion`模型画二次元人物，效果绝对会比使用`Anything`差的许多；又或者，想画出宛如真人coser的图，用`ChilloutMix`铁定比用只强调写实的`RealisticVision`要来的合适。因此在学会下提示词以前，要先按照用途挑选适合的模型。
 
 
-# 1.  提示词 Prompts
+# 1. 提示词 Prompts
 
 这一节使用HD-v22的模型做示范，因此生成出来都会是动漫风格。
 
@@ -79,7 +79,7 @@ artwork by Alfons Maria Mucha, masterpiece, 1girl, asian, blue eyes, beach, ocea
 
 ![](../../../images/example5.png)
 
-6. 当然还可以画特定动漫人物的「二创」，只要将名字和作品名称打上去就可以了。有名的动漫角色只要出现名字，不用特别指定身体特征或就会画出原作风格了，例如指定《新世纪福音战士》的惣流·明日香·兰格雷：
+6. 当然还可以画特定动漫人物的「二创」，只要将名字和作品名称打上去就可以了。有名的动漫角色只要出现名字，不用特别指定身体特征就会画出原作风格了，例如指定《新世纪福音战士》的惣流·明日香·兰格雷：
 ```lisp
 ; 参考翻译：新世纪福音战士的明日香，大师级作品，一个女孩，沙滩，海洋
 asuka_langley_souryuu from neon_genesis_evangelion, masterpiece, 1girl, beach, ocean

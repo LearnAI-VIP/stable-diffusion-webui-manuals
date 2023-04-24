@@ -24,7 +24,7 @@ weight: 1
 譬如，用寫實風格的`Stable Diffusion`模型畫動漫人物，效果絕對會比使用`Anything`差的許多；又或者，想畫出宛如真人coser的圖，用`ChilloutMix`鐵定比用只強調寫實的`RealisticVision`要來的合適。因此在學會下提示詞以前，要先按照用途挑選適合的模型。
 
 
-# 1.  提示詞 Prompts
+# 1. 提示詞 Prompts
 
 這一節使用HD-v22的模型做示範，因此生成出來都會是動漫風格。
 
@@ -79,7 +79,7 @@ artwork by Alfons Maria Mucha, masterpiece, 1girl, asian, blue eyes, beach, ocea
 
 ![](../../images/example5.png)
 
-6. 當然還可以畫特定動漫人物的「二創」，只要將名字和作品名稱打上去就可以了。有名的動漫角色只要出現名字，不用特別指定身體特徵或就會生成原作風格了，例如指定《新世紀福音戰士》的惣流·明日香·蘭格雷：
+6. 當然還可以畫特定動漫人物的「二創」，只要將名字和作品名稱打上去就可以了。有名的動漫角色只要出現名字，不用特別指定身體特徵就會生成原作風格了，例如指定《新世紀福音戰士》的惣流·明日香·蘭格雷：
 ```lisp
 ; 參考翻譯：新世紀福音戰士的明日香，大師級作品，一個女孩，沙灘，海洋
 asuka_langley_souryuu from neon_genesis_evangelion, masterpiece, 1girl, beach, ocean
