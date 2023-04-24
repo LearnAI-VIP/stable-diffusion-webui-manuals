@@ -1,7 +1,9 @@
-baseURL = 'example.com'
-title = 'Stable Diffusion WebUI使用手冊'
+baseURL = 'http://learnai.vip/'
+title = 'Stable Diffusion WebUI 使用手冊'
 theme = 'hugo-book'
-defaultContentLanguage = "zh-tw"
+defaultContentLanguage = "zh-cn"
+
+# googleAnalytics = 'G-NYE962575Q'
 
 # Book configuration
 disablePathToLower = true
@@ -26,29 +28,35 @@ enableGitInfo = true
   languageCode = 'zh-tw'
   languageName = '目前語言：正體中文'
   contentDir = 'content.zh-tw'
-  title = 'Stable Diffusion WebUI使用手冊(正體中文)'
+  title = 'Stable Diffusion WebUI使用手冊'
   weight = 1
 
 [languages.zh-cn]
   languageCode = 'zh-cn'
   languageName = '当前语言：简体中文'
   contentDir = 'content.zh-cn'
-  title = 'Stable Diffusion WebUI使用手册(简体中文)'
+  title = 'Stable Diffusion WebUI使用手册'
   weight = 2
 
-[languages.en-us]
-  languageCode = 'en-us'
-  languageName = 'Language: English'
-  contentDir = 'content.en-us'
-  title = "(WIP) Stable Diffusion User's Manuals"
-  weight = 3
+#[languages.en-us]
+#  languageCode = 'en-us'
+#  languageName = 'English'
+#  contentDir = 'content.en-us'
+#  title = "Stable Diffusion User's Manuals by Ivon Huang"
+#  weight = 3
 
 [menu]
 
 [[menu.before]]
-  name = "【意見回饋】Send feedbacks"
-  url = "https://github.com/ivon852/stable-diffusion-webui-manuals"
+  name = "作者: Ivon's Blog"
+  url = "https://ivonblog.com/"
   weight = 10
+
+
+#[[menu.after]]
+  #name = "ATOMATIC1111的Stable Diffsion WebUI儲存庫"
+  #url = "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+  #weight = 20
 
 
 [params]
@@ -76,7 +84,7 @@ enableGitInfo = true
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/ivon852/stable-diffusion-webui-manuals'
+  BookRepo = 'https://github.com/LearnAI-VIP/stable-diffusion-webui-manuals-CN'
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
